@@ -18,6 +18,7 @@
 
 .selection-box{
     display: flex;
+    flex-wrap: wrap;
     border: 0.1em solid black;
     /* height: 30em; */
     width: 30em;
