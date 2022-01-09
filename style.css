@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+    gap: 0.5em;
+}
+.index-buttons {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 1em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 0.25em 0.125em;
+    cursor: pointer;
+    width: 10em;
+  }
+
+.selection-box{
+    display: flex;
+    border: 0.1em solid black;
+    /* height: 30em; */
+    width: 30em;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+}
+
+.selection-index {
+    text-align: center;
+}
+
+.user-input {
+    border: none;
+    border-bottom: 0.1em solid black;
+    width: 25em;
+    height: 1.5em;
+    float: right;
+}
+
+.user-input:focus, .body-input:focus{
+    outline: none
+}
+
+.body-div{
+    text-align: center;
+    margin-left: -0.5em;
+}
+
+.body-input{
+    border: 0.1em solid black;
+}
+
+.sender {
+    width: 5em !important;
+    height: 4em !important;
+}
+.sender:hover{
+    background-color: grey;
+    color: black
+}
+
+.message{
+    background-color: 0.1em solid black;
+}
